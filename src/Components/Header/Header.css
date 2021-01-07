@@ -1,0 +1,8 @@
+.nav_link{
+  color: black !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav_link:hover{
+  border-bottom: 3px solid rgb(30, 206, 39);
+}

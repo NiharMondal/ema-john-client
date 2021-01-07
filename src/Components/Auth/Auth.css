@@ -1,0 +1,21 @@
+.auth_wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_wrapper{
+  width: 450px;
+}
+span{
+  cursor: pointer;
+  color: rgb(22, 119, 87);
+}
+.facebook_login,.google_login{
+  border: 1px solid gray;
+  border-radius: 59px;
+  cursor: pointer;
+  padding: 11px;
+  text-align: center;
+}
