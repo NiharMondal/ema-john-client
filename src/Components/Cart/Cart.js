@@ -26,12 +26,12 @@ const Cart = ({ cart }) => {
       <div className="text-center">
         <h4>Order Summery</h4>
         <h6>Items Orderd: { cart.length}</h6>
-      </div>
+      </div> <br/>
       <div>
-        <p>Product Price: ${ formatNumber(total)}</p>
-        <p>Shipping Cost: ${ shipping}</p>
-        <p>TAX+VAT: ${tax} </p>
-        <p>Total Price: ${grandTotal} </p>
+        <h5>Product Price: ${ formatNumber(total)}</h5>
+        <h5>Shipping Cost: ${ shipping}</h5>
+        <p> TAX+VAT: $ {tax} </p>
+        <h4>Total Price: ${grandTotal} </h4>
       </div>
     </div>
   );

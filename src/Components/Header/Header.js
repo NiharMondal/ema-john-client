@@ -18,7 +18,6 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav style={{ padding: '0', margin: '0' }} className="ml-auto ">
-            <Nav.Link className="nav_link" href="/shop">Shop</Nav.Link>
             <Nav.Link className="nav_link" href="/review">Order Review</Nav.Link>
             <Nav.Link className="nav_link" href="/inventory">Manage Inventory</Nav.Link>
           </Nav>
